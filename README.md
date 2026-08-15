@@ -2,11 +2,13 @@
 
 A repo for working with the Kubernetes Minikube clusters.
 
-## Steps
+## Installation
 
-Mac (Homebrew): brew install minikube kubectl
-Windows (Chocolatey): choco install minikube kubernetes-cli
-Linux: Follow the quick binary downloads on the official Kubernetes site.
+- Mac (Homebrew): brew install minikube kubectl
+- Windows (Chocolatey): choco install minikube kubernetes-cli
+- Linux: Follow the quick binary downloads on the official Kubernetes site.
+
+## Quickstart Steps
 
 - minikube start
 - kubectl apply -f deployment.yaml
@@ -19,8 +21,8 @@ Linux: Follow the quick binary downloads on the official Kubernetes site.
 
 ### Troubleshooting pods
 
-kubectl logs hello-poc-service-instance-name
-kubectl describe pod hello-poc-service-instance-name
+- kubectl logs hello-poc-service-instance-name
+- kubectl describe pod hello-poc-service-instance-name
 
 ### Notes
 
